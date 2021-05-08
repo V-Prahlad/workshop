@@ -41,7 +41,12 @@ header ul li:hover {
 
 .hero {
   height: 41vh;
-  background: coral;
+  background: rgb(173, 89, 215);
+  background: linear-gradient(
+    90deg,
+    rgba(173, 89, 215, 0.9030893874643875) 28%,
+    rgba(16, 207, 240, 0.9230324074074074) 81%
+  );
   display: flex;
   align-items: center;
   justify-content: center;
@@ -164,6 +169,17 @@ button {
 
   button {
     padding: 1rem 8rem;
+  }
+
+  .form {
+    background-color: #2b4f60;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 4rem 0 0 2rem;
+    margin: 0rem 1rem 1rem 1rem;
+    border-radius: 1rem;
+    min-height: 20vh;
   }
 }
 
