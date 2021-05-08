@@ -157,6 +157,14 @@ button {
   .first {
     margin-bottom: 2rem;
   }
+
+  .form input {
+    padding: 1rem 5rem;
+  }
+
+  button {
+    padding: 1rem 8rem;
+  }
 }
 
 @media (min-width: 800px) {
