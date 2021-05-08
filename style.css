@@ -16,14 +16,14 @@ html {
   min-height: 100vh;
 }
 header ul {
-  background: #907fa4;
+  background: #440a67;
+  color: white;
   display: flex;
   justify-content: space-around;
   border: 2px solid #e095f1;
 }
 
 header ul:hover {
-  background-color: #34656d;
   color: #fff;
 }
 
