@@ -41,11 +41,11 @@ header ul li:hover {
 
 .hero {
   height: 41vh;
-  background: rgb(173, 89, 215);
-  background: linear-gradient(
-    90deg,
-    rgba(173, 89, 215, 0.9030893874643875) 28%,
-    rgba(16, 207, 240, 0.9230324074074074) 81%
+  background: rgb(63, 94, 251);
+  background: radial-gradient(
+    circle,
+    rgba(63, 94, 251, 1) 0%,
+    rgba(252, 70, 223, 1) 100%
   );
   display: flex;
   align-items: center;
